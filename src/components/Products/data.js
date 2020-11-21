@@ -30,7 +30,7 @@ export const productData = [
         button: 'Add to Cart'
     },
 ]
-export const productData = [
+export const productDataTwo = [
 
     {
         img: product1,
