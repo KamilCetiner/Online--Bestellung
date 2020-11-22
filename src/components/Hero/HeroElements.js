@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/nachtisch_erdbeeren.jpg';
+import ImgBg from '../../images/döner.jpg';
 
 
 export const HeroContainer = styled.div `
@@ -10,7 +10,6 @@ background-image: url(${ImgBg});
 height: 100vh;
 background-position: center;
 background-size: cover;
-
 
 `
 
@@ -33,7 +32,6 @@ padding: 0 2rem;
 width: 650px;
 color: #fff;
 text-transform: uppercase;
-
 line-height: 1;
 font-weight: bold;
 
@@ -52,9 +50,8 @@ letter-spacing: 3px;
 `;
 
 export const HeroP = styled.p `
-font-size: clamp(2rem, 2,5 vw, 3rem )
-margin-bottom= 2rem;
-
+font-size: clamp(2rem, 2,5 vw, 3rem );
+margin-bottom : 2rem;
 `;
 
 export const HeroBtn = styled.button`
@@ -69,6 +66,6 @@ transition: 0.2s ease-out;
     background:  #ffc500;
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #000;
+    color: black;
 }
 `;

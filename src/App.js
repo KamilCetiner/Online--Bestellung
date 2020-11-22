@@ -5,6 +5,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {GlobalStyle} from './globalStyles';
 import {productData, productDataTwo} from './components/Products/data';
 import Feature from './components/Feature';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
       <Products heading='Choose your favorite' data={productData} />
       <Feature/>
 
-      <Products heading='s´Sweer treats y´fir you' data={productDataTwo} />
+      <Products heading='What is your favorite' data={productDataTwo} />
 
   
      <Hero/>
+     <Footer/>
     </Router>
   );
 }

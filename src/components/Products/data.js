@@ -1,30 +1,33 @@
-import product1 from '../../images/acma.jpg';
-import product2 from '../../images/nachtisch_cream.jpg';
-import product3 from '../../images/mit_Salz.jpg';
+import product1 from '../../images/Türkisch_Pizza.jpg';
+import product2 from '../../images/pide.jpg';
+import product3 from '../../images/beyti.jpg';
+import product4 from '../../images/künefe.jpg';
+import product5 from '../../images/sütlac.jpg';
+import product6 from '../../images/ekmek_tatlisi.jpg';
 
 
 export const productData = [
 
     {
         img: product1,
-        alt : 'Acma',
-        name : 'Yagli Acma',
+        alt : 'Türkisch_Pizza',
+        name : 'Türkisch Pizza',
         desc : 'Margarin, Mehl, Olives, pesto, basil, tomatos',
         price: '5€',
         button: 'Add to Cart'
     },
     {
         img: product2,
-        alt : 'Nachtich',
-        name : 'Nachtisch Creme',
+        alt : 'Pide',
+        name : 'Pide',
         desc : 'Margarin, Mehl, Olives, pesto, basil, tomatos',
         price: '3€',
         button: 'Add to Cart'
     },
     {
         img: product3,
-        alt : 'Mit Salz',
-        name : 'Yagli Acma',
+        alt : 'Beyti',
+        name : 'Beyti',
         desc : 'Margarin, Mehl, Olives, pesto, basil, tomatos',
         price: '2€',
         button: 'Add to Cart'
@@ -33,25 +36,25 @@ export const productData = [
 export const productDataTwo = [
 
     {
-        img: product1,
-        alt : 'Acma',
-        name : 'Yagli Acma',
+        img: product4,
+        alt : 'Künefe',
+        name : 'Künefe',
         desc : 'Margarin, Mehl, Olives, pesto, basil, tomatos',
         price: '5€',
         button: 'Add to Cart'
     },
     {
-        img: product2,
-        alt : 'Nachtich',
-        name : 'Nachtisch Creme',
+        img: product5,
+        alt : 'Sütlac',
+        name : 'Sütlac',
         desc : 'Margarin, Mehl, Olives, pesto, basil, tomatos',
         price: '3€',
         button: 'Add to Cart'
     },
     {
-        img: product3,
-        alt : 'Mit Salz',
-        name : 'Yagli Acma',
+        img: product6,
+        alt : 'Ekmek Tatlisi',
+        name : 'Ekmek Tatlisi',
         desc : 'Margarin, Mehl, Olives, pesto, basil, tomatos',
         price: '2€',
         button: 'Add to Cart'
