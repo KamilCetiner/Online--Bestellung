@@ -7,7 +7,7 @@ min-height: 100vh;
 padding: 5rem calc((100vw - 13000px) /2);
 background: #150f0f;
 color: #fff;
-
+ 
 `;
 
 export const ProductsWrapper = styled.div`
@@ -38,7 +38,6 @@ margin-bottom: 5rem;
 `;
 
 export const ProductTitle = styled.h2`
-font-weight: 400;
 font-size: 1.5rem;
 `;
 
@@ -53,7 +52,7 @@ text-align: center;
 `;
 
 export const ProductDesc = styled.p`
-
+font-weight:400;
 margin-bottom: 1rem;
 font-size:2rem;
 

@@ -11,15 +11,12 @@ import Footer from './components/Footer'
 function App() {
   return (
     <Router>
+      <Hero/>
       <GlobalStyle/>
       <Products heading='Choose your favorite' data={productData} />
       <Feature/>
-
       <Products heading='What is your favorite' data={productDataTwo} />
-
-  
-     <Hero/>
-     <Footer/>
+      <Footer/>
     </Router>
   );
 }
